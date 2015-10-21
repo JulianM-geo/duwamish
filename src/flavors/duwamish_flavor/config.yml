@@ -28,6 +28,9 @@ languages:
   - code: vi
     label: tôi nói tiếng việt
 
+  - code: cz
+    label: Ja mluvim cesky
+
 # Settings for map and layer configs
 map:
   geolocation_enabled: true
@@ -236,7 +239,7 @@ map:
 place_types:
  
   observation:
-    label: _(Observation)
+    label: observation
     rules:
       - condition: '"{{location_type}}" === "observation" && {{map.zoom}} < 11 && {{layer.focused}} === false'
         icon:

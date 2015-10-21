@@ -1,4 +1,3 @@
-
 /* =Base Styles
 -------------------------------------------------------------- */
 
@@ -22,7 +21,7 @@ label, label:active, label:visited {
 }
 a:hover,
 label:hover {
-  color: #00aaff;
+  color: rgb(20,100,200);
 }
 a:hover, a:active {
   outline: none;
@@ -43,7 +42,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 0 0.25em 0;
 }
 h1 {
-  font-size: 2em;
+  font-size: 2.5em;
 }
 h2 {
   font-size: 2em;
@@ -104,8 +103,8 @@ hr {
 .btn:visited,
 .btn:link {
   display: inline-block;
-  *display: inline;
-  *zoom: 1;
+  display: inline;
+  zoom: 1;
   padding: 0.325em 0.625em;
   margin-bottom: 0;
   text-align: center;
@@ -208,7 +207,7 @@ input[type=week],
 textarea {
   outline: 0;
   border: 0.25em solid #a3c7d9;
-  border-radius: 0;
+  border-radius: 0em;
   padding: 0.5em;
   display: block;
   width: 100%;
@@ -303,17 +302,17 @@ img {
 
 #site-header {
   /*color: #eee;*/
-  background: url(http://subtlepatterns.com/patterns/lightpaperfibers.png);
+  background-image: url(https://cloud.githubusercontent.com/assets/1459051/10562055/df2faee4-74fc-11e5-859d-a0b9bfc916c9.png);
   position: relative;
   z-index: 40;
-  padding: 0.5em;
-  box-shadow: 0 0.125em 0 rgba(0,0,0,0.2);
+  padding: 0.1em;
+  box-shadow: 0em 0.125em 0em rgba(0,0,0,0.2);
 }
 
 #site-title {
   /*color: #F25218;*/ /*too much like 'simpsons'*/
-  font-size: .75em;
-  font-family: 'Rock Salt', cursive;
+  font-size: .85em;
+  font-family: 'Helvetica','Rock Salt', cursive;
   text-shadow: 1px -1px 1px rgba(0,0,0,0.5);
   float: left;
   margin: 0 0.5em 0 0;
@@ -329,21 +328,21 @@ img {
   line-height: 1.25;
   text-decoration: none;
   /*color: #F25218;*/
-  color: #228b22;
+  color: #bbb;
 }
 #site-title a:hover {
   /*color: #FF8B61;*/
-  color: #abde76;
+  color:rgb(20,150,90);
 }
 
 /* Navigation Button */
 #nav-btn {
-  background: url(http://subtlepatterns.com/patterns/lightpaperfibers.png);
+  background-image: url(http://www.psdgraphics.com/file/blue-scratched-texture.jpg);
   color: #bbb;
   font-size: 2em;
   line-height: 1;
   text-decoration: none;
-  text-align: center;
+  text-align: left;
   text-shadow: -1px 1px 1px rgba(0,0,0,0.25);
   float: left;
   width: 1.25em;
@@ -487,7 +486,7 @@ a.logout-btn {
 
 /* Add Place Button */
 #add-place-btn-container {
-  background: url(http://subtlepatterns.com/patterns/lightpaperfibers.png);
+  background: url(http://www.psdgraphics.com/file/blue-scratched-texture.jpg);
   padding: 0.5em 0.5em 0.75em;
   position: relative;
   z-index: 30;
@@ -690,7 +689,7 @@ a.logout-btn {
 a.close-btn {
   background: #fff;
   color: #ff5e99;
-  font-size: 1.25em;
+  font-size: 1.3em;
   font-weight: bold;
   text-decoration: none;
   line-height: 1.125em;
@@ -700,7 +699,7 @@ a.close-btn {
   top: -1.325em;
   left: 0.5em;
   padding: 0.325em 0.625em;
-  z-index: 2;
+  z-index: 3;
   box-shadow: 0 -0.325em 0 rgba(0,0,0,0.1);
   border-radius: 0.325em 0.325em 0 0;
 }
@@ -940,8 +939,7 @@ a.auth-inline {
 #side-bar {
   display: none;
   overflow: auto;
-
-  letter-spacing: 1px;
+  letter-spacing: 0.1em;
   background-color: rgba(255, 255, 255, 0.5);
 }
 /*#side-bar header {*/
@@ -953,9 +951,8 @@ a.auth-inline {
   color: #F25218;
   font-family: 'Roboto', sans-serif;
   text-shadow: 1px -1px 1px rgba(0,0,0,0.5);
-
   font-size: 1.4em;
-  margin: 0;
+  margin-top: 1em;
   letter-spacing: 1px;
   text-transform: uppercase;
 }
@@ -979,7 +976,7 @@ a.auth-inline {
 -------------------------------------------------------------- */
 
 #ticker {
-  background: url(http://subtlepatterns.com/patterns/lightpaperfibers.png);
+  background: url(http://www.psdgraphics.com/file/blue-scratched-texture.jpg);
   z-index: 30;
   display: none;
 }
@@ -1302,8 +1299,8 @@ ul.recent-points {
   width: auto;
   margin:0 auto;
   display: inline-block;
-  *display: inline;
-  *zoom: 1;
+  display: inline;
+  zoom: 1;
   padding: 0.5em 0.75em;
   text-align: center;
   vertical-align: middle;
@@ -1336,8 +1333,8 @@ ul.recent-points {
   border-radius: 3px;
 
   display: inline-block;
-  *display: inline;
-  *zoom: 1;
+  display: inline;
+  zoom: 1;
   padding: 0.1em 0.1em;
 }
 
@@ -1346,7 +1343,7 @@ ul.recent-points {
 
 #geocode-address-bar {
   display: none;
-  background: url(http://subtlepatterns.com/patterns/lightpaperfibers.png);
+  background: url(http://www.psdgraphics.com/file/blue-scratched-texture.jpg);
   position: relative;
   z-index: 40;
   padding: 0.75em 0.5em 0.5em;
@@ -1478,6 +1475,7 @@ input.geocode-address-field:focus {
 #colophon {
   padding: 1em 0.5em;
   text-align: center;
+  z-index:4;
 }
 #colophon a {
   text-decoration: none;
@@ -1656,7 +1654,7 @@ browser height, but in portrait mode, we usually have ~30px of nav/status-bar, s
     -webkit-box-sizing: border-box;
        -moz-box-sizing: border-box;
             box-sizing: border-box;
-    background: url(http://subtlepatterns.com/patterns/lightpaperfibers.png);
+    background-image:"/Users/julianmydlil/Development/Hey-Duwamish/duwamish/src/sa_web/static/css/images/lue-scratched-texture.png";
   }
   .has-pages #site-title {
     padding-left: 0;
@@ -1677,13 +1675,19 @@ browser height, but in portrait mode, we usually have ~30px of nav/status-bar, s
   }
   #language-picker {
     float: right;
-    height: 100%;
+    height: 90%;
+    width:8em;
+    background-color:rgb(205, 246, 255);
+    border:#666 0.1em solid;
+    border-radius:0.2em;
     /*position: none;*/
   }
   .current-language {
-    background: none;
+    background:none;
     border: none;
     box-shadow: none;
+    margin-top:-0.5em;
+    margin-left:-0.5em;
   }
 
   .access {
@@ -1737,14 +1741,15 @@ browser height, but in portrait mode, we usually have ~30px of nav/status-bar, s
     font-size: 1em;
     text-decoration: none;
     line-height: 1.5;
-    padding: 0.5em;
-    margin: 0.25em 0.75em 0 0.75em;
+    padding: 0.8em;
+    margin: 0.25em 0.2em 0 0.2em;
+    border-radius:2.5em;
     position: relative;
     z-index: 3;
   }
   .sign-in-menu {
-    background: url(http://subtlepatterns.com/patterns/lightpaperfibers.png);
-    border-radius: 3px;
+    background: url(http://www.psdgraphics.com/file/blue-scratched-texture.jpg);
+    border-radius: 6em;
     box-shadow: -0.25em 0.25em 0 rgba(0,0,0,0.2);
     width: 18em;
     margin: 0;
@@ -1759,7 +1764,7 @@ browser height, but in portrait mode, we usually have ~30px of nav/status-bar, s
     height: 0;
     width: 0;
     border: 1em solid transparent;
-    border-bottom-color: #666;
+    border-bottom-color: #aaa;
     border-top: 0;
     position: absolute;
     bottom: 100%;
@@ -1795,22 +1800,23 @@ browser height, but in portrait mode, we usually have ~30px of nav/status-bar, s
   }
   .leaflet-top.leaflet-right {
     right: auto;
-    left: 10px;
-    top: 77px;
+    left: 0.75em;
+    top: 6em;
   }
 
   #map {
     height: 100%;
   }
   #add-place-btn-container {
-    background: transparent;
-    font-size: 1.25em;
+    background: none;
+    opacity:5%;
+    font-size: 1.1em;
     padding: 0;
     position: absolute;
-    left: 1.5em;
-    bottom: 2em;
+    left: 0em;
+    bottom: 0em;
     box-shadow: none;
-    border-bottom: 0;
+    border-bottom: 10;
   }
   #add-place-btn-container .btn,
   #add-place-btn-container .btn:visited,
@@ -1833,7 +1839,7 @@ browser height, but in portrait mode, we usually have ~30px of nav/status-bar, s
     color: #36454f;
     padding: 0;
     position: absolute;
-    top: 4em; /* height of site-header */
+    top: 5em; /* height of site-header */
     right: 0;
     bottom: 1.75em;
     left: 40%;
@@ -1928,14 +1934,15 @@ browser height, but in portrait mode, we usually have ~30px of nav/status-bar, s
   /* The Side Bar */
   #side-bar {
     position: absolute;
-    top: 4em; /* height of #site-header */
+    top: 5em; /* height of #site-header */
     right: 0;
     bottom: 0;
     left: auto;
-    width: 18em;
+    width: 15em;
     overflow: auto;
     -webkit-overflow-scrolling: touch;
     z-index: 15;
+    font-size:0.8em;
     box-shadow: -0.325em 0 0 rgba(0,0,0,0.1);
     background-color: rgba(255, 255, 255, 0.5);
 
@@ -1953,7 +1960,7 @@ browser height, but in portrait mode, we usually have ~30px of nav/status-bar, s
     left: auto;
     overflow: auto;
     -webkit-overflow-scrolling: touch;
-    z-index: 15;
+    z-index: 30;
     background: none;
   }
   .activity-enabled.content-visible #ticker {
@@ -2008,8 +2015,8 @@ browser height, but in portrait mode, we usually have ~30px of nav/status-bar, s
 
   /* Footer */
   #colophon {
-    color: #007fbf;
-    background: url(http://subtlepatterns.com/patterns/lightpaperfibers.png);
+    
+    background: url();
     font-size: 1em;
     position: absolute;
     top: auto;
